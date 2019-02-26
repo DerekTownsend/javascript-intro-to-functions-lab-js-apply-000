@@ -30,14 +30,14 @@ describe('logShout(string)', function() {
   })
 })
 
-function logShout(string){
-  const spy = expect.spyOn(console, 'log').andCallThrough()
-
-  logShout('HELLO')
-  expect(spy).toHaveBeenCalledWith('HELLO')
-
-  console.log.restore()
-}
+// function logShout(string){
+//   const spy = expect.spyOn(console, 'log').andCallThrough()
+//
+//   logShout('HELLO')
+//   expect(spy).toHaveBeenCalledWith('HELLO')
+//
+//   console.log.restore()
+// }
 
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
