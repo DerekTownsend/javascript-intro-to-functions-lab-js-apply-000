@@ -33,7 +33,7 @@ describe('logShout(string)', function() {
 function logShout(string){
   const spy = expect.spyOn(console, 'log').andCallThrough()
 
-  logShout('hello')
+  logShout('HELLO')
   expect(spy).toHaveBeenCalledWith('HELLO')
 
   console.log.restore()
