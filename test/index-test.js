@@ -33,7 +33,7 @@ describe('logShout(string)', function() {
 // function logShout(string){
 //   const spy = expect.spyOn(console, 'log').andCallThrough()
 //
-//   logShout('HELLO')
+//   logShout('hello')
 //   expect(spy).toHaveBeenCalledWith('HELLO')
 //
 //   console.log.restore()
@@ -64,3 +64,15 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
+
+function sayHiToGrandma(string){
+  if(string===string.toLowerCase()){
+    return "I can't hear you!"
+  }else if(string===string.toLowerCase()){
+    return "I can't hear you!"
+  }else if(string===string.toLowerCase()){
+    return "I can't hear you!"
+  }
+
+
+}
