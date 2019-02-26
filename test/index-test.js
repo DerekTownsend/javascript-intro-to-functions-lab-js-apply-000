@@ -70,7 +70,7 @@ function sayHiToGrandma(string){
     return "I can't hear you!"
   }else if(string===string.toUpperCase()){
     return "I can't hear you!"
-  }else if(string===string.toLowerCase()){
+  }else if(string==="I love you, Grandma."){
     return "I can't hear you!"
   }
 
