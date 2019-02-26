@@ -5,7 +5,7 @@ describe('shout(string)', function() {
   })
 })
 function shout(string){
-  return string.toUpperCase()
+  return string.toUpperCase();
 }
 
 describe('whisper(string)', function() {
